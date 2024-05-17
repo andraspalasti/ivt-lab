@@ -1,0 +1,7 @@
+Firing mode: SINGLE
+  1. For the first time only the primary store is fired.
+  2. The torpedo stores are fired alternating.
+  3. If the store next in line is empty, the ship tries to fire the other store
+  4. If the fired store reports a failure, the ship does not try to fire the other one
+Firing mode: ALL
+  1. Tries to fire both of the torpedo stores
